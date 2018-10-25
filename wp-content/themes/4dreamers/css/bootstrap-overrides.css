@@ -1,0 +1,96 @@
+
+.btn-primary {
+    background-color: #1BCB9D;
+    border-color: transparent;
+    color: #fff;
+	transition:all 200ms linear;
+	
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #00AB6F;
+    border-color: transparent;
+    color: #fff;
+	transition:all 200ms linear;
+}
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-default {
+    background-color: #454C52;
+    border-color: transparent;
+    color: #FFF;
+	transition:all 200ms linear;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background-color: #1BCB9D;
+    border-color: transparent;
+    color: #FFF;
+	transition:all 200ms linear;
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+/*form-inline */
+
+.form-inline .control-label { margin-bottom:5px;}
+
+/*breadcrumb*/
+
+.breadcrumb { margin-bottom:0; border-radius:0; padding-left:0; padding-bottom:0; color:#B9B9B9}
+.breadcrumb a{ text-decoration:underline; color:inherit;}
+.breadcrumb > .active { color: #B9B9B9;}
+
+/*pagination*/
+
+.pagination > li > a, .pagination > li > span {
+    background-color: #E3E3E3;
+    border: none;
+    color: #A4A4A4;
+    float: left;
+    line-height: 1.42857;
+    margin-left: 5px;
+    padding: 8px 14px;
+    position: relative;
+    text-decoration: none;
+	border-radius:30px;
+	font-weight:bold;
+	font-size:16px;
+}
+.pagination > .current , .pagination > .current > span, .pagination > .current > a:hover, .pagination > .current > span:hover, .pagination > .current > a:focus, .pagination > .current > span:focus {
+    background-color: #1CCC9E;
+    border-color: none;
+    color: #fff;
+    cursor: default;
+    z-index: 2;
+}
+.page-numbers.current, .page-numbers.current:hover{
+	background-color: #1CCC9E;
+    color: #fff;
+	cursor: default;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span { border-radius:30px;}
+.pagination > li:first-child > a, .pagination > li:first-child > span { border-radius:30px;}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #1CCC9E;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+/*blog-list */
+
+.blog-list .col-xs-1, .blog-list .col-sm-1, .blog-list .col-md-1, .blog-list .col-lg-1, .blog-list .col-xs-2, .blog-list .col-sm-2, .blog-list .col-md-2 .blog-list, .blog-list .col-lg-2, .blog-list .col-xs-3,.blog-list .col-sm-3, .blog-list .col-md-3, .blog-list .col-lg-3, .blog-list .col-xs-4, .blog-list .col-sm-4, .blog-list .col-md-4,.blog-list .col-lg-4, .blog-list .col-xs-5, .blog-list .col-sm-5, .blog-list .col-md-5, .blog-list .col-lg-5, .blog-list .col-xs-6, .blog-list .col-sm-6, .blog-list .col-md-6, .blog-list .col-lg-6, .blog-list .col-xs-7, .blog-list .col-sm-7, .blog-list .col-md-7, .blog-list .col-lg-7, .blog-list .col-xs-8, .blog-list .col-sm-8, .blog-list .col-md-8, .blog-list .col-lg-8, .blog-list .col-xs-9, .blog-list .col-sm-9, .blog-list .col-md-9, .blog-list .col-lg-9, .blog-list .col-xs-10, .blog-list .col-sm-10, .blog-list .col-md-10, .blog-list .col-lg-10, .blog-list .col-xs-11, .blog-list .col-sm-11, .blog-list .col-md-11, .blog-list .col-lg-11, .blog-list .col-xs-12, .blog-list .col-sm-12, .blog-list .col-md-12, .blog-list .col-lg-12 { padding:0 2.5px; margin-bottom:5px}
+
+/*blog-list */
+
+.news-list .col-xs-1, .news-list .col-sm-1, .news-list .col-md-1, .news-list .col-lg-1, .news-list .col-xs-2, .news-list .col-sm-2, .news-list .col-md-2 .news-list, .news-list .col-lg-2, .news-list .col-xs-3, .news-list .col-sm-3, .news-list .col-md-3, .news-list .col-lg-3, .news-list .col-xs-4, .news-list .col-sm-4, .news-list .col-md-4,.news-list .col-lg-4, .news-list .col-xs-5, .news-list .col-sm-5, .news-list .col-md-5, .news-list .col-lg-5, .news-list .col-xs-6, .news-list .col-sm-6, .news-list .col-md-6, .news-list .col-lg-6, .news-list .col-xs-7, .news-list .col-sm-7, .news-list .col-md-7, .news-list .col-lg-7, .news-list .col-xs-8, .news-list .col-sm-8, .news-list .col-md-8, .news-list .col-lg-8, .news-list .col-xs-9, .news-list .col-sm-9, .news-list .col-md-9, .news-list .col-lg-9, .news-list .col-xs-10, .news-list .col-sm-10, .news-list .col-md-10, .news-list .col-lg-10, .news-list .col-xs-11, .news-list .col-sm-11, .news-list .col-md-11, .news-list .col-lg-11, .news-list .col-xs-12, .news-list .col-sm-12, .news-list .col-md-12, .news-list .col-lg-12 { padding:0 2.5px; margin-bottom:5px}
+
+.popular .col-sm-2 { width:20%;}
+
+
+

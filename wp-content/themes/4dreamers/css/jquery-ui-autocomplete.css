@@ -1,0 +1,58 @@
+/* highlight results */
+.ui-autocomplete span.hl_results {
+    color: #FF393A;
+}
+ 
+/* loading - the AJAX indicator */
+.ui-autocomplete-loading {
+    background: white url('../images/loading.gif') right center no-repeat;
+    background-size: contain;
+}
+ 
+/* scroll results */
+.ui-autocomplete {
+    max-height: 300px;
+    width: 500px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* add padding for vertical scrollbar */
+    padding:0 0px;
+    background: #fefefe;
+    border: 1px solid #ddd;
+}
+ 
+.ui-autocomplete li {
+    font-size: 16px;
+}
+
+.ui-autocomplete li:hover {
+    background: #1bcb9d;
+    /*border: 1px solid #ddd;*/
+}
+ 
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+* html .ui-autocomplete {
+    height: 300px;
+}
+
+li.unselectable, li.unselectable a  {
+    pointer-events: none; 
+    cursor: default;
+}
+
+li.ui-state-disabled {
+    opacity: 0.5 !important;
+    filter:Alpha(Opacity=50) !important; /* support: IE8 */
+}
+
+.ui-menu .CityRow {
+
+}
+
+.ui-menu .acRow a span.inside {
+  font-size:14px;
+  padding-left: 16px;
+}

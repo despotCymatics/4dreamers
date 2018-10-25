@@ -1,0 +1,128 @@
+
+@media (max-width: 1200px) {
+    .form-holder .form-car .controls .input.datePicker.hasDatepicker { width: 53%; }
+
+}
+
+@media (max-width: 992px) {
+    .logo-header { display:block; height:auto; }
+    .logo-holder { float: none; width:100%; margin-bottom:15px;}
+    .logo-holder a{ float: none; margin:0 auto; display: block}
+    .baner-header { float:none; display: block; text-align: center;}
+    /*.carousel*/.choose-box .btn-primary { float:none; position:absolute; right:0; top:-20px;}
+    .destination i {display: none;  }
+    .form-holder .button-holder { width: 70%; }
+    .form-holder .btn.choose { margin-bottom:10px; }
+    .form-holder .form-car .controls .input.datePicker.hasDatepicker { width: 100%; }
+    .form-holder .button-holder { width: 50%;}
+    .form-holder.inner .margin-15-top {height: auto;}
+    .form-holder .btn-lg.search {top: auto !important;}
+    iframe#reg {width: 100% !important;}
+}
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .g-recaptcha {
+        position: relative;
+        width: auto;
+        bottom: auto !important;
+        right: auto;
+        display: table-cell;
+        margin-bottom: 10px;
+        text-align: left;
+        padding-bottom: 30px;
+
+    }
+    .not_valid_captcha {
+        top:80px !important;
+        right: auto !important;
+    }
+
+    #hotel_search .not_valid_captcha, #car_search .not_valid_captcha {
+        top:100px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer_logos {text-align: center;}
+    .footer_logos img {float: none;}
+    .form-holder .form-car .controls .input.datePicker.hasDatepicker { width: 70%; }
+    .baner-header { float:none; display: block}
+
+    .section-title { text-align:center;}
+
+    .form-holder .btn-lg.search { position:relative; top:auto; left:auto; right:auto; bottom: auto; float: right; float:none;  max-width:310px;}
+    .form-holder .box { min-height:57px; text-align:center; }
+    .form-holder .button-holder { display:table; text-align:center; width:100%;}
+
+    .form-holder .btn.choose { width:50%; margin-bottom:10px; margin-right:0;}
+
+    .tirp-finder { padding-bottom:50px;}
+    .tirp-finder .badge-holder .plus { position: relative; top: auto; right: auto;}
+
+    .blog-list .box .title-block { display:table; margin:0 auto;}
+
+    .news-list .box {/*display:table;*/ margin:15px;}
+
+    .news-list.inner .box a img { /*max-width:340px;*/}
+    .news-list.inner .col-sm-4 {padding:0 2.5px;}
+
+    .inner-news { padding:30px 40px;}
+
+    .banners a{ display:table; margin:20px auto; }
+
+    footer .nav.navbar-nav{ display:table; text-align:center; margin:0 auto;}
+
+    .left.spec { width:100%;}
+
+    .left.spec.IsCalendarSearch {
+        margin-top: 10px;
+    }
+
+    .lan-soc-holder { margin-bottom:20px;}
+
+    .footer-holder .soc {text-align: center;}
+
+    .footer-holder .copyright {text-align: center;}
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover { background-color:transparent;}
+
+    .popular .col-sm-2 { width:100%; text-align:center;}
+
+    .about ul li, .about h2.section-title, .about h4 { text-align:center;}
+
+    .carousel .bx-wrapper .bx-pager { display:block}
+    /*.carousel*/ .choose-box a { display:block; width:100%; margin-left:45%}
+    /*.carousel*/ .choose-box a:last-child { margin-bottom:20px;}
+    .carousel .bx-wrapper { margin-top:20px;}
+
+    /*.carousel*/ .choose-box .btn-primary { float:none}
+
+    .g-recaptcha {
+        position: relative !important;
+        width: auto !important;
+        bottom: auto;
+        right: auto;
+
+    }
+
+}
+@media (max-width: 570px) {
+    .blog-list .col-sm-6 .box .title-block { display:block; }
+    .call-to-action .button, .call-to-action .action-text {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
