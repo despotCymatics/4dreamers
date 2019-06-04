@@ -78,6 +78,19 @@ if (have_posts()) {
 		<section style="">
 			<div class="container">
 				<div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-12">
+            <a href="<?php echo $bannerLink; ?>">
+              <img style="margin:20px auto; display: block;" src="/wp-content/uploads/banners/LHGA.png">
+            </a>
+          </div>
+          <div class="col-md-12">
+            <a href="<?php echo $bannerLink; ?>">
+              <img style="margin:20px auto; display: block;" src="/wp-content/uploads/banners/LH_banner.jpg">
+            </a>
+          </div>
+
+          <?php if (false) { ?>
 					<div class="col-md-4">
 						<a href="<?php echo $bannerLink; ?>">
 							<img style="margin:20px auto; display: block;" src="/wp-content/uploads/banners/aitalia-barcelona-madrif-ny-300x250.gif">
@@ -89,14 +102,9 @@ if (have_posts()) {
 					<div class="col-md-4">
 						<a href="<?php echo $bannerLink; ?>">
 							<img style="margin: 20px auto; display: block;" src="/wp-content/uploads/banners/AUS_myGEMÜTLICHKEIT_300x250_B2B_en[5].jpg">
-
-							<!--<img style="margin: 20px auto; display: block;" src="http://4dreamers.rs/wp-content/uploads/banners/lufhansa-300x250-frames.gif">-->
-							<!--<object width="300" height="250" style="margin: 20px auto; display: block;">
-								<param name="movie" value="/wp-content/uploads/2016/08/AUS300x250_EN.SWF">
-								<embed src="/wp-content/uploads/2016/08/AUS300x250_EN.SWF" width="300" height="250"></embed>
-							</object>-->
 						</a>
 					</div>
+          <?php } ?>
 				</div>
 			</div>
 		</section>
